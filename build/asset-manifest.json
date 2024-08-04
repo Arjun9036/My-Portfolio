@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.025569bb.css",
+    "main.js": "/static/js/main.7e6ff6f9.js",
+    "static/js/592.7881a785.chunk.js": "/static/js/592.7881a785.chunk.js",
+    "static/media/BannerImage.webp": "/static/media/BannerImage.ee108c009c826e59f8bb.webp",
+    "static/media/resume.pdf": "/static/media/resume.bf798cf1f8de9f0a0683.pdf",
+    "static/media/skills.svg": "/static/media/skills.1baa9b565666165ca7d67bcf40184b86.svg",
+    "static/media/stats.svg": "/static/media/stats.00f2a4be1e58160c21fd14bbf532ab56.svg",
+    "index.html": "/index.html",
+    "static/media/details.svg": "/static/media/details.b04ed3692dac5eff189821239fe07ea4.svg",
+    "static/media/resume.svg": "/static/media/resume.05f92bb0d23554f84f6c64b33f8d9468.svg",
+    "static/media/projects.svg": "/static/media/projects.2e767f8fce8c3cdc515ca1897f80cc37.svg",
+    "static/media/add.svg": "/static/media/add.5feb18fd9100bd43b2fc667aaaef2c7d.svg",
+    "main.025569bb.css.map": "/static/css/main.025569bb.css.map",
+    "main.7e6ff6f9.js.map": "/static/js/main.7e6ff6f9.js.map",
+    "592.7881a785.chunk.js.map": "/static/js/592.7881a785.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.025569bb.css",
+    "static/js/main.7e6ff6f9.js"
+  ]
+}

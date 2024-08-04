@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { useEffect } from 'react'
 import add from '../../assets/images/add.svg'
 
 export default function AdminDetails() {
@@ -7,9 +8,10 @@ export default function AdminDetails() {
 
   const data = require('../../data/my_details.json')
 
-  React.useEffect(() => {
-    setHobbies(data.hobbies)
-  })
+  useEffect(() => {
+    // Assuming data.hobbies is the new value you want to set
+    setHobbies(data.hobbies);
+  }, [data.hobbies]);
 
   const hobb = useRef()
   const addHobby = () => {

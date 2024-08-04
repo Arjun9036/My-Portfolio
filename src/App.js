@@ -2,7 +2,6 @@ import './App.css';
 
 import React from 'react';
 import Skills from './components/Skills';
-import Stats from './components/Stats';
 import About from './components/About';
 import Contact from './components/Contact';
 // importing react-router-dom

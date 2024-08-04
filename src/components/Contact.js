@@ -7,40 +7,7 @@ export default function Contact() {
   // eslint-disable-next-line
   const [error, setError] = useState('')
 
-  function onSubmit(e){
-    e.preventDefault();
-    e.stopPropagation();
-
-    fetch("https://formcarry.com/s/OL5THyzwkiV", {
-      method: 'POST',
-      headers: { 
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ name, email, message })
-    }) 
-    .then(response => response.json())
-    .then(response => {
-      if (response.code === 200) {
-        alert("We received your submission, thank you!");
-        setName('');
-        setEmail('');
-        setMessage('');
-      }
-      else if(response.code === 422){
-        // Field validation failed
-        setError(response.message)
-      }
-      else {
-        // other error from formcarry
-        setError(response.message)
-      }
-    })
-    .catch(error => {
-      // request related error.
-      setError(error.message ? error.message : error);
-    });
-  }
+  
 
   return (
     <>
